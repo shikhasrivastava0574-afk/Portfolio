@@ -27,10 +27,10 @@ st.markdown("""
 # 3. Hero Section (Header)
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.title("Shikha Srivastava [cite: 1]")
-    st.subheader("Data Science & Machine Learning Specialist [cite: 4]")
-    st.markdown("📍 Jaipur, Rajasthan | 📞 +91 8955230864 | ✉️ shikhasrivastava0574@gmail.com [cite: 2]")
-    st.markdown("[LinkedIn](https://linkedin.com) | [GitHub](https://github.com) [cite: 2]")
+    st.title("Shikha Srivastava")
+    st.subheader("Data Science & Machine Learning Specialist")
+    st.markdown("📍 Jaipur, Rajasthan | 📞 +91 8955230864 | ✉️ shikhasrivastava0574@gmail.com")
+    st.markdown("[LinkedIn](https://linkedin.com) | [GitHub](https://github.com)")
 
 st.markdown("---")
 
@@ -40,16 +40,16 @@ tab_about, tab_projects, tab_research, tab_skills = st.tabs(["👤 About Me", "�
 # --- TAB 1: ABOUT ME ---
 with tab_about:
     st.header("Summary")
-    st.write("Machine learning-focused computer science undergraduate with a strong foundation in statistical modeling, deep learning and data analytics. [cite: 4] Proficient in Python, Java, C, TensorFlow and PyTorch, with hands-on experience processing large-scale video data for real-time object detection and building interactive dashboards. [cite: 5] Skilled in data wrangling, visualization and cross-functional collaboration, seeking an AI/ML internship to apply predictive modeling at scale. [cite: 6]")
+    st.write("Machine learning-focused computer science undergraduate with a strong foundation in statistical modeling, deep learning and data analytics. Proficient in Python, Java, C, TensorFlow and PyTorch, with hands-on experience processing large-scale video data for real-time object detection and building interactive dashboards. Skilled in data wrangling, visualization and cross-functional collaboration, seeking an AI/ML internship to apply predictive modeling at scale.")
     
     st.header("Education")
-    st.info("**Manipal University Jaipur** | B.Tech, Computer Science & Engineering (Specialization: Data Science) [cite: 8, 9]")
+    st.info("**Manipal University Jaipur** | B.Tech, Computer Science & Engineering (Specialization: Data Science)")
     col_edu1, col_edu2 = st.columns(2)
     with col_edu1:
-        st.write("📅 **Timeline:** Jul 2023 - Jul 2027 [cite: 11]")
-        st.write("🎯 **GPA:** 8.41 (till 5th semester) [cite: 10]")
+        st.write("📅 **Timeline:** Jul 2023 - Jul 2027")
+        st.write("🎯 **GPA:** 8.41 (till 5th semester)")
     with col_edu2:
-        st.write("🏆 **Achievements:** Dean's List Excellence Award (9+ GPA in 3rd & 4th semester) [cite: 12]")
+        st.write("🏆 **Achievements:** Dean's List Excellence Award (9+ GPA in 3rd & 4th semester)")
 
 # --- TAB 2: PROJECTS ---
 with tab_projects:
